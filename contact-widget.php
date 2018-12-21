@@ -27,4 +27,4 @@ include('class.contact-widget.php');
 function register_contact_widget(){
     register_widget('Contact_Widget');
 }
-add_action('widget_init', 'register_contact_widget');
+add_action('widgets_init', 'register_contact_widget');
