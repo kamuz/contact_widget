@@ -4,7 +4,6 @@
     background: green;
     padding: 10px;
     border-radius: 2px;
-    transition: all 1s;
 }
 .error{
     color: white;
@@ -12,5 +11,4 @@
     background: red;
     padding: 10px;
     border-radius: 2px;
-    transition: all 1s;
 }

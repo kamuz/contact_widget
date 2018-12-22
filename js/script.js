@@ -9,11 +9,11 @@ jQuery(document).ready(function($){
     $(form).submit(function(event){
         // Stop browser from submitting form
         event.preventDefault();
-        console.log("Contact form submited");
+        // console.log("Contact form submited");
 
         // Serialize Data
         var formData = $(form).serialize();
-        console.log(formData);
+        // console.log(formData);
 
         // Submit with AJAX
         $.ajax({

@@ -1,4 +1,5 @@
 <?php
+
 // Check $_POST
 if($_SERVER['REQUEST_METHOD'] == "POST"){
     // Get and sanitize $_POST values
