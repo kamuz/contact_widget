@@ -2,3 +2,4 @@
 
 Demo:
 
+![Demo](contact_widget.gif)
