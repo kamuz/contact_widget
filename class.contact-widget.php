@@ -36,9 +36,9 @@ class Contact_Widget extends WP_Widget{
      * Backend form
      */
     public function form($instance){
-        $title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'AJAX Contact Widget', 'text_domain' );
-        $recipient = ! empty( $instance['recipient'] ) ? $instance['recipient'] : esc_html__( 'Recipient', 'text_domain' );
-        $subject = ! empty( $instance['subject'] ) ? $instance['subject'] : esc_html__( 'Subject', 'text_domain' );
+        $title = ! empty( $instance['title'] ) ? $instance['title'] : esc_html__( 'AJAX Contact Widget', 'kmzcontact' );
+        $recipient = ! empty( $instance['recipient'] ) ? $instance['recipient'] : esc_html__( 'Recipient', 'kmzcontact' );
+        $subject = ! empty( $instance['subject'] ) ? $instance['subject'] : esc_html__( 'Subject', 'kmzcontact' );
         ?>
         <p>
             <label for="<?php echo $this->get_field_id('title') ?>"><?php echo _e('Title:') ?></label>

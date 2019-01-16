@@ -2,4 +2,4 @@
 
 Demo:
 
-![Demo](contact_widget.gif)
+![Demo](demo.gif)
